@@ -1,0 +1,20 @@
+-R . LM
+
+-install none
+COQDOCFLAGS = "--charset utf-8 -s --parse-comments --with-header ./website/resources/header.html --with-footer ./website/resources/footer.html --index indexpage"
+
+
+
+PrelimsTac.v
+Prelims.v
+
+L.v
+Refinements.v
+Programs.v
+M_stack.v
+Closures.v
+M_clos.v
+Codes.v
+Heaps.v
+M_heap.v
+Extra.v
